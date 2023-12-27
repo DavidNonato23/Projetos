@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Kalnia;
+    src: url(font/Kalnia/static/Kalnia-Light.ttf);
+}
+
+body{
+    background-color: red;
+}
+
+*{
+    padding: 0px;
+    margin: auto;
+}
+
+header{
+    background-color: white;
+    padding: 20px;
+    border-top-right-radius:3px;
+    border-top-left-radius: 3px;
+}
+
+header >h1{
+    font-family: Kalnia;
+    font-size: 56px;
+    text-align: center;
+    color: black;
+    border-radius: 3px;
+}
+
+header >h1 >a{
+    text-decoration: none;
+    color: black;
+}
+
+header >nav >a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    margin: auto;
+}
+
+header >nav >a:hover{
+    transition: 1s;
+    color: red;
+}
+
+main >h1{
+    background-color: black;
+    color: white;
+    width: 300px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+main >h1:hover{
+    transition: 1s;
+    color: red;
+}
+
+main >img{
+    margin-top: 100px;
+    
+    display: block;
+    
+    width: 300px;
+    min-width: 350px;
+    max-width: 900px;
+    border-radius: 3px;
+}
+
+main >p{
+    font-size: 22px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 3px;
+    width: 350px;
+    margin-top: 10px;
+}
+
+article{
+    background-color: black;
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    
+}
+
+article >p{
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    border-radius: 3px;
+    font-size: 22px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}

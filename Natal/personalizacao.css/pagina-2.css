@@ -1,0 +1,112 @@
+@font-face {
+    font-family: home_christmas;
+    src: url(/font/home_christmas/Home\ Christmas.otf);
+}
+
+body{
+    background-color: red;
+}
+
+
+
+*{
+    padding: 0px;
+    margin: auto;
+}
+
+header{
+    background-color: white;
+    padding: 20px;
+    border-top-right-radius:3px;
+    border-top-left-radius: 3px;
+}
+
+header >h1{
+    font-family: Kalnia;
+    font-size: 56px;
+    text-align: center;
+    color: black;
+    border-radius: 3px;
+}
+
+header >h1 >a{
+    font-family: home_christmas;
+    text-decoration: none;
+    color: black;
+}
+
+header >nav >a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    margin: auto;
+}
+
+header >nav >a:hover{
+    transition: 1s;
+    color: red;
+}
+
+
+main >h1{
+    border-radius: 3px;
+    display: block;
+    width: 300px;
+    background-color: black;
+    color: white;
+
+    margin: auto;
+    margin-bottom: 50px;
+    
+    text-align: center;
+
+    
+}
+
+main >h1:hover{
+    color:red;
+
+    transition: 1s;
+}
+
+main >img{
+    margin: auto;
+    display: block;
+   
+
+    width: 300px;
+    min-width: 350px;
+    max-width: 900px;
+}
+
+main >p{
+    text-align: center;
+    width: 300px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+
+    margin-bottom: 50px;
+}
+
+main >p >strong{
+    
+    font-size: 22px;
+    color: white;
+    border-radius: 3px;
+    margin-bottom: 2px;
+}
+
+main >iframe{
+    display: block;
+    margin: auto;
+
+    padding: 10px;
+    background-color: white;
+
+    margin-bottom:10px ;
+
+}

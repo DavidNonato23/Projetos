@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Kalnia;
+    src: url(/font/Kalnia/static/Kalnia-Light.ttf);
+}
+
+@font-face {
+    font-family: candy_cane;
+    src: url(/font/candy_cane/Candcu__.ttf);
+}
+
+body{
+    background-color: red;
+}
+
+*{
+    padding: 0px;
+    margin: auto;
+}
+
+header{
+    background-color: white;
+    padding: 20px;
+    border-top-right-radius:3px;
+    border-top-left-radius: 3px;
+}
+
+header >h1{
+    font-family: candy_cane;
+    font-size: 56px;
+    text-align: center;
+    color: black;
+    border-radius: 3px;
+}
+
+header >h1 >a{
+    text-decoration: none;
+    color: black;
+}
+
+header >nav >a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+    margin: auto;
+}
+
+header >nav >a:hover{
+    transition: 1s;
+    color: red;
+}
+
+main{
+    background-color: white;
+}
+
+main >h1{
+font-family: Kalnia;
+text-align: center;
+margin: auto;
+background-color: black;
+color: white;
+width: 450px;
+display: block;
+border-radius: 3px;
+font-size: 56px;
+margin-top: 300px;
+}
+
+main >h1:hover{
+color: red;
+transition: 1.5s;
+}
+
+
+
