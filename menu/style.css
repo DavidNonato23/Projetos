@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/*Copor*/
+body{
+    background-color: #332F23;
+}
+/*Cabeça*/
+header{
+    background-color: #615E56;
+    border-radius: 3px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+}
+
+header >h1{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #D9962B;
+}
+
+header >p{
+    text-align: right;
+    padding-right: 10px;
+    color: white;
+}
+/*navegação*/
+nav{
+    background-color: #615E56;
+    padding: 5px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    margin-bottom: 50px;
+}
+
+
+nav >a{
+    padding: 4px;
+    text-decoration: none;
+    color: white;
+}
+
+nav >a:hover{
+    color: #332F23;
+    transition: 1s;
+}
+/*Corpo pricipal*/
+main{
+    text-align: center;
+}
+
+main >div{
+    width: 300px;
+    height: 500px;
+    display: inline-block;
+    background-color: #D9962B;
+    padding-top: 3px;
+    font-size: 19px;
+    border-radius: 3px;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+
+#pricipal{
+background-color: #D9962B;
+padding: 20px;
+width: 1200px;
+height: 700px;
+text-align: center;
+margin: auto;
+border-radius: 3px;
+}
+
+#pricipal >ul >li{
+    columns: 3;
+}
